@@ -1,0 +1,88 @@
+/* ----------------------------------------------------------------------------------------
+Template: TemplateName
+Version: 1.0.0
+Author: UCoder PRO - support@ucoder.pro
+-----------------------------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext");
+@import "animate.min.css";
+@import "mp-styles.min.css";
+
+html, body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+
+.trs-01 {
+  -moz-transition: all ease-in .1s;
+  -webkit-transition: all ease-in .1s;
+  transition: all ease-in .1s;
+}
+
+.trs-02 {
+  -moz-transition: all ease-in .2s;
+  -webkit-transition: all ease-in .2s;
+  transition: all ease-in .2s;
+}
+
+.trs-03 {
+  -moz-transition: all ease-in .3s;
+  -webkit-transition: all ease-in .3s;
+  transition: all ease-in .3s;
+}
+
+.trs-04 {
+  -moz-transition: all ease-in .4s;
+  -webkit-transition: all ease-in .4s;
+  transition: all ease-in .4s;
+}
+
+.trs-05 {
+  -moz-transition: all ease-in .5s;
+  -webkit-transition: all ease-in .5s;
+  transition: all ease-in .5s;
+}
+
+
+.celm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.celm-x {
+  position: absolute;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.celm-y {
+  position: absolute;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
